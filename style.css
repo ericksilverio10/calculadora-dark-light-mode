@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+body{
+    background: linear-gradient(to right, #fff6b7, #f6416c);
+}
+h1{
+    color: #4e355d;
+}
+.fundo{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+#resultado{
+    font-size: 20px;
+    width: 207px;
+    height: 30px;
+    background-color: white;
+    margin: 5px;
+    padding-top: 5px;
+    color:black;
+}
+.calculadora{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: linear-gradient(to right, #476892, #59355d);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 35px;
+}
+.botao{
+    background-image: linear-gradient(to left, #203044, #59355d);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+
+}
+.botao-operador{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #fff6b7, #f6416c);  
+}
+.botao-igual{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right, #ff5789, #9f44d3);  
+}
+.botao:hover{
+    transition: 0.2s ease-in-out;
+    font-size: 22px;
+}
+.botao:active{
+    background-image: linear-gradient(to left, #6e8aad, #7f4a85);
+}
+.botao-igual:hover{
+    transition: 0.2s ease-in-out;
+    font-size: 22px;
+}
+.botao-igual:active{
+    background-image: linear-gradient(to right, #fd6d98, #cd7bfd);  
+}
+.botao-operador:hover{
+    transition: 0.2s ease-in-out;
+    font-size: 22px;
+}
+.botao-operador:active{
+    background-image: linear-gradient(to right, #fff9cd, #fc7191);  
+}
+.darkModeButton{
+    display: absolute;
+    background-image: linear-gradient(to left, #203044, #59355d);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    
+}
+.darkModeButton:hover{
+    transition: 0.5s ease-in-out;
+    letter-spacing: 2px;
+    display: absolute;
+    background-image: linear-gradient(to right, #203044, #59355d);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+}
+.darkModeButton:active{
+    background-image: linear-gradient(to right, #395475, #844e8a);
+}
+.lightModeButton{
+    display: none;
+    background-image: linear-gradient(to right, #35965a, #63d471);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+}
+.lightModeButton:hover{
+    transition: 0.5s ease-in-out;
+    letter-spacing: 2px;
+    display: absolute;
+    background-image: linear-gradient(to left, #35965a, #63d471);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+}
+.lightModeButton:active{
+    background-image: linear-gradient(to right, #395475, #844e8a);
+}
+
+

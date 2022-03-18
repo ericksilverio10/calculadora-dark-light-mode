@@ -15,6 +15,10 @@ const calcular = ()=>{
     if(document.getElementById('resultado').innerHTML == 'Infinity' || document.getElementById('resultado').innerHTML == 'undefined' ){
         document.getElementById('resultado').innerHTML = 'Erro';
     }
+    if(document.getElementById('resultado').innerHTML.length > 17){
+        document.getElementById('resultado').innerHTML = document.getElementById('resultado').innerHTML.substring(0, document.getElementById('resultado').innerHTML.length - 4);
+        console.log("Maior que 17 caracteres");
+    }
 }
 const body = document.querySelector('body');
 const calculadora = document.querySelector('.calculadora')
